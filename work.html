@@ -75,7 +75,7 @@
  
       <div class="container">
         <h1>My Projects</h1>
-        <p>Explore some of my recent data analytics projects that showcase my skills in data visualization and analysis.</p>
+        <p>Explore some of my recent data analytics and web development projects that showcase my skills in data visualization, analysis, and website creation.</p>
     </div>
     <div class="container mt-5">
         <div class="card mb-4">
@@ -134,6 +134,66 @@
                     <li>Detailed analysis of post-to-start metrics by year</li>
                     <li>Visualizations include bar charts to compare yearly data</li>
                     <li>Identified key trends in post-to-start processes</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card mb-4">
+            <div class="card-header bg-light">
+                <h4>Local Vendors Website: Bounty of Yum</h4>
+            </div>
+            <div class="image-container">
+                <img src="images/bountyofyum.jpg" class="card-img-top" alt="Local Vendors Website: Bounty of Yum">
+
+                <img src="images/shoppingcart.jpg" class="card-img-top" alt="Local Vendors Website: Bounty of Yum Shopping Cart">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Online platform conneting local vendors with community members</h5>
+                <p class="card-text">
+                    To provide an intuitive and mobile-friendly experience, where vendors can showcase their products, and customers can discover and support local businesses. Key features include detailed vendor profiles, comprehensive product listings, and secure shopping cart functionality.
+                </p>
+                <ul>
+                    <li>MongoDB
+                        In our project, MongoDB serves as the database for storing and managing information such as vendor profiles, product listings, and user details. The backend used MongoDB to:
+                        Store Product Data: Product names, images, descriptions, and prices.
+                        Manage Users: User authentication details and purchase history.
+                        Track Orders: Real-time updates of stock levels and completed transactions.
+                         MongoDB’s flexible JSON-like structure allows seamless integration with the frontend, represented in the project’s HTML files, enabling dynamic content updates.</li>
+                    <li>Postman
+                        We used Postman to validate the website’s API functionality, particularly for operations related to the shopping cart and checkout. Postman enabled us to:
+                        Test GET Requests: For fetching vendor and product data displayed on pages like index.html and local-vendors.html (files).
+                        Test POST Requests: To process checkout operations, such as adding items to the cart or saving order details in the backend.
+                        Debug API Errors: Postman helped identify any inconsistencies in data flow between the frontend (HTML forms) and backend logic.
+                        </li>
+                    <li>Checkout Process
+                        The checkout process implemented in the project ensures a smooth user experience, likely following this flow:
+                        Cart Review: Users add items to their cart, with prices dynamically displayed using the JavaScript functionality in main.js.
+                        Form Submission: On confirming the order, data from the cart form is submitted to the backend for processing.
+                        Order Validation: The backend, potentially connected to MongoDB, verifies stock availability and processes the order.
+                        Payment Integration: While direct payment gateways are not included in the files, placeholders or simulated actions might be part of the JavaScript for testing purposes.
+                        Confirmation: The user receives a success message, and the vendor database updates the stock to reflect the purchase.
+                        </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card mb-4">
+            <div class="card-header bg-light">
+                <h4>2023 Termination Visualizations by Location, Quarter, and Year</h4>
+            </div>
+            <div class="image-container">
+                <img src="images/childcare_web.jpg" class="card-img-top" alt="Burien Childcare Website">
+                <img src="images/childcare_mobile_web.jpg" class="card-img-top" alt="Burien Childcare Website Mobile">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Local Childcare</h5>
+                <p class="card-text">
+                    Developed a website for a local childcare. It included a home page that with information about the business with google maps, an about page, gallery page, schedule page, and contact page.
+                </p>
+                <ul>
+                    <li>Developed dynamic, responsive websites using HTML, CSS, and JavaScript, ensuring cross-browser compatibility and mobile optimization.</li>
+                    <li>Integrated and tested RESTful APIs using Postman and Jest, enhancing application functionality and ensuring code quality.</li>
+                    <li>Deployed full-stack applications utilizing Node.js for server-side logic and MongoDB Atlas for database management in scalable cloud environments.</li>
                 </ul>
             </div>
         </div>
